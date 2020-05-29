@@ -93,3 +93,26 @@ h3 {
 .skill div + div {
 	margin-left: 10px;
 }
+
+/* Break point */
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 28px;
+	}
+
+	.card {
+		max-width: 80%;
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	.skill {
+		font-size: 12px;
+	}
+
+	.contact {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
