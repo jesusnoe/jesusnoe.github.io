@@ -98,6 +98,18 @@ h3 {
 	margin-left: 10px;
 }
 
+@media (min-width: 640px) {
+	.card {
+		width: 50%;
+		margin: 20px 0;
+	}
+}
+
+@media (min-width: 900px) {
+	.card {
+		width: 40%;
+	}
+}
 
 @media (min-width: 1200px) {
 	.content {
