@@ -98,7 +98,7 @@ h3 {
 	margin-left: 10px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 639px) {
 	.card {
 		width: 50%;
 		margin: 20px 0;
