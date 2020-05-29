@@ -6,9 +6,25 @@ body {
 	color: rgb(19, 2, 44);
 	margin: 0;
 	padding: 0;
-	background: springgreen;
-	background: linear-gradient(180deg, springgreen 0%, springgreen 30%, rgba(71,238,151,1) 100%);
+	/*background: springgreen;*/
+	/*background: linear-gradient(180deg, springgreen 0%, springgreen 30%, rgba(71,238,151,1) 100%);*/
+	/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+	background: linear-gradient(-45deg, rgb(255, 235, 59), springgreen, #23d5ab, #23a6d5, #e73c7e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }	
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 h1 {
 	font-family: 'Lora', serif;
